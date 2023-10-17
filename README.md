@@ -1,6 +1,5 @@
 ## CI/CD Jenkins Project
 
-testing
 
 ![alt text](Images/d1.png)
 
@@ -32,6 +31,10 @@ sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sou
 sudo apt update
 
 sudo apt install jenkins
+
+sudo systemctl start jenkins
+
+sudo systemctl enable jenkins
 ```
 
 Navigate to your EC2 Instance 
@@ -59,7 +62,7 @@ This will give you the password, then enter the password
 - Navigate to `Manage Jenkins`
 - Select `Pluggin`
 - Then select `Available pluggin`
-- Install `SSH Agent` `Office 365 connector`
+- Install `SSH Agent` `Office 365 connector` `NodeJs`
 
 ## How did you rebuild the Pipeline?
 
