@@ -87,7 +87,7 @@ This will give you the password, then enter the password
 
 ![alt text](Images/s4.png)
 
-**Step 4:** Office 365 Connector 
+**Step 4:** Office 365 Connector
 
 - Check `Restrict where this project can be run`
 - Label Expression: `sparta-ubuntu-node`
